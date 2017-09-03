@@ -1,0 +1,33 @@
+{
+  "name": "ko-maybe",
+  "version": "0.0.1",
+  "description": "Maybe-like data structure that wraps Knockout observables",
+  "main": "ko-maybe.js",
+  "scripts": {
+    "test": "node ko-maybe.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emillundstrm/ko-maybe.git"
+  },
+  "keywords": [
+    "knockout",
+    "knockoutjs",
+    "ko",
+    "maybe",
+    "monad"
+  ],
+  "author": "Emil Lundström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emillundstrm/ko-maybe/issues"
+  },
+  "homepage": "https://github.com/emillundstrm/ko-maybe#readme",
+  "dependencies": {
+    "knockout": ">=3.2.0"
+  },
+  "devDependencies": {
+    "ramda": "^0.24.1",
+    "tape": "^4.8.0"
+  }
+}
